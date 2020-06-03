@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/ly"
+        android:layout_width="match_parent"
+        android:padding="4dp"
+        android:background="#fff"
+        android:clickable="true"
+        android:foreground="?attr/selectableItemBackground"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/countryName"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".9"
+            android:gravity="left"
+            android:padding="4dp"
+            android:textColor="#000"
+            android:textSize="12dp" />
+
+        <TextView
+            android:id="@+id/Case"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:padding="4dp"
+            android:gravity="center"
+            android:textColor="#000"
+            android:textSize="12dp"
+            android:layout_height="wrap_content" />
+
+
+        <TextView
+            android:id="@+id/Death"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:padding="4dp"
+            android:gravity="center"
+            android:textColor="#000"
+            android:textSize="12dp"
+            android:layout_height="wrap_content" />
+
+
+        <TextView
+            android:id="@+id/Recovered"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:padding="4dp"
+            android:gravity="center"
+            android:textColor="#000"
+            android:textSize="12dp"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+</LinearLayout>
